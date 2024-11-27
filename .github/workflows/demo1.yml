@@ -1,0 +1,9 @@
+name: John
+age: 30
+student: false
+address:
+  city: Anytown
+  zip: 12345
+hobbies:
+  - Reading
+  - Hiking
