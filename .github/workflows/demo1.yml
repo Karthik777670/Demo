@@ -1,9 +1,10 @@
-name: John
-age: 30
-student: false
-address:
-  city: Anytown
-  zip: 12345
-hobbies:
-  - Reading
-  - Hiking
+on:
+  push:
+    branches:
+        main
+jobs:
+  print_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello"
